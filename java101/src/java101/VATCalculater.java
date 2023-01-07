@@ -10,9 +10,8 @@ public class VATCalculater {
 		System.out.print("Enter price: ");
 		amount = input.nextDouble();
 		
-		boolean highRate = amount > 0 && amount < 1000;
-		boolean lowRate = amount > 1000;
-		amountOfVat = highRate ? 0.18 : 0.08;
+		boolean vatRate = amount > 0 && amount < 1000;
+		amountOfVat = vatRate ? 0.18 : 0.08;
 		
 		withVatPrice = amount + (amount * amountOfVat);
 		
