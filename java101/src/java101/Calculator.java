@@ -2,7 +2,7 @@ package java101;
 
 import java.util.Scanner;
 
-public class Calculater {
+public class Calculator {
 
 	public static void main(String[] args) {
 
