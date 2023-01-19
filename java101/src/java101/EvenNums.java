@@ -17,10 +17,10 @@ public class EvenNums {
 		}*/
 		
 		// with While
-		int i = 1;
+		int i = 0;
 		while (i <= num) {
 			i++;
-			if (i % 2 == 0) {
+			if (i % 3 == 0 && i % 4 == 0) {
 				System.out.println(i);
 			}
 		}
