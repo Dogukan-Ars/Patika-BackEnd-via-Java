@@ -21,7 +21,6 @@ public class DigitsValueAddition {
 		while (tempA != 0) {
 			digitsValue = tempA % 10;
 			System.out.print(digitsValue + ", ");
-			// 1 * 1 * 1 * 1 = 1^4
 			for (int i = 1; i <= digits; i++) {
 				digitsTotal = digitsValue;
 			}
