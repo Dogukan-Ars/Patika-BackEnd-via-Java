@@ -8,7 +8,7 @@ public class ExpNumsWithRecursive {
 		 if (a == 1 || b == 0) {	          
 	            return 1;
 	        }
-	        return a*exp(a,b-1);
+	        return a * exp(a, b-1);
 	}
 	
 	public static void main(String[] args) {
